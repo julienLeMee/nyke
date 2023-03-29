@@ -1,5 +1,6 @@
 import { NavbarUp } from '@/components/NavbarUp'
 import { NavbarDown } from '@/components/NavbarDown'
+import { Hero } from '@/components/Hero'
 import Head from 'next/head'
 import Image from 'next/image'
 
@@ -17,7 +18,7 @@ export default function Home() {
       </Head>
       <NavbarUp />
       <NavbarDown />
-      <h1 className='p-8 text-center font-bold text-4xl'>NYKE.</h1>
+      <Hero />
     </>
   )
 }

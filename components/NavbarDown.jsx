@@ -8,9 +8,9 @@ export const NavbarDown = () => {
     <>
       <div className="flex items-center justify-between w-[95%] mx-auto py-1">
         <div className='w-[80px]'>
-          <img src="nike-logo.png" alt="air jordan logo" width={80} height={80} />
+          <img src="nike-logo.png" alt="air jordan logo" width={80} height={80} className='scale-x-[-1]' />
         </div>
-        <div>
+        <div className='hidden lg:block'>
           <ul className='flex ml-52'>
             <li className='ml-4 p-2'>New & Featured</li>
             <li className='ml-4 p-2'>Men</li>

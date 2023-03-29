@@ -6,8 +6,8 @@ export const NavbarUp = () => {
     <div className='bg-gray-100'>
       <div className="flex items-center justify-between w-[95%] mx-auto py-1">
         <div className='flex items-center'>
-          <img src="air-jordan-logo.png" alt="air jordan logo" width={30} height={30} />
-          <img src="converse-logo.png" alt="air jordan logo" width={50} height={50} />
+          <img src="air-jordan-logo.png" alt="air jordan logo" width={30} height={30} className='scale-x-[-1]' />
+          <img src="converse-logo.png" alt="air jordan logo" width={50} height={50} className='scale-x-[-1]' />
         </div>
         <div className='flex items-center'>
           <ul className='flex'>
