@@ -22,7 +22,7 @@ export const NavbarDown = () => {
           <div className='bg-gray-100 rounded-full hover:bg-black/10'>
             <div className='flex items-center mr-3'>
               <div className='p-2 rounded-full'>
-                <CiSearch />
+                <CiSearch className='w-full h-full' size={20} />
               </div>
               <input placeholder='Search' type="text" className='border-none focus:outline-none bg-transparent rounded-full p-2 w-32' />
             </div>
