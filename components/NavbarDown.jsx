@@ -11,11 +11,11 @@ export const NavbarDown = () => {
           <img src="nike-logo.png" alt="air jordan logo" width={80} height={80} className='scale-x-[-1]' />
         </div>
         <div className='hidden lg:block'>
-          <ul className='flex ml-52'>
-            <li className='ml-4 p-2'>New & Featured</li>
-            <li className='ml-4 p-2'>Men</li>
-            <li className='ml-4 p-2'>Women</li>
-            <li className='ml-4 p-2'>Kids</li>
+          <ul className='flex ml-52 duration-300'>
+            <li className='ml-4 p-2 border-transparent hover:border-black border-b-2 duration-300'>New & Featured</li>
+            <li className='ml-4 p-2 border-transparent hover:border-black border-b-2 duration-300'>Men</li>
+            <li className='ml-4 p-2 border-transparent hover:border-black border-b-2 duration-300'>Women</li>
+            <li className='ml-4 p-2 border-transparent hover:border-black border-b-2 duration-300'>Kids</li>
           </ul>
         </div>
         <div className='flex items-center'>
