@@ -5,6 +5,7 @@ import Head from 'next/head'
 import { Slider } from '@/components/Slider'
 import { Exclusives } from '@/components/Exclusives'
 import { Explore } from '@/components/Explore'
+import { Sport } from '@/components/Sport'
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <Slider />
       <Exclusives />
       <Explore />
+      <Sport />
     </>
   )
 }
