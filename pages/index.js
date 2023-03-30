@@ -7,6 +7,7 @@ import { Exclusives } from '@/components/Exclusives'
 import { Explore } from '@/components/Explore'
 import { Sport } from '@/components/Sport'
 import { Month } from '@/components/Month'
+import { Membership } from '@/components/Membership'
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <Explore />
       <Sport />
       <Month />
+      <Membership />
     </>
   )
 }
