@@ -4,11 +4,11 @@ import { ExploreItem } from './ExploreItem'
 export const Explore = () => {
   return (
     <>
-      <div className="mb-10">
-        <div className='px-8 py-2'>
-          <p className='px-4 text-2xl tracking-wide font-medium text-black/80'>More to Explore</p>
+      <div className="mb-10 md:px-6">
+        <div className='px-4 py-2'>
+          <p className='text-2xl tracking-wide font-medium text-black/80'>More to Explore</p>
         </div>
-        <div className='w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth relative px-8'>
+        <div className='w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth relative'>
           <ExploreItem
             genre='Women'
             img='https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_550,c_limit/275a4902-b836-4d48-b54c-7d71689fce0b/nike-just-do-it.jpg'

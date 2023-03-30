@@ -4,11 +4,11 @@ import { ExclusivesItem } from './ExclusivesItem'
 export const Exclusives = () => {
   return (
     <>
-      <div className="mb-10">
-        <div className='px-8 py-2'>
-          <p className='px-4 text-2xl tracking-wide font-medium text-black/80'>SNKRS Exclusives</p>
+      <div className="mb-10 md:px-6">
+        <div className='px-4 py-2'>
+          <p className='text-2xl tracking-wide font-medium text-black/80'>SNKRS Exclusives</p>
         </div>
-        <div className='w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth relative px-8'>
+        <div className='w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth relative'>
           <ExclusivesItem
             name='Nike Air Max 95'
             price='245'

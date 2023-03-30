@@ -8,11 +8,13 @@ export const ExclusivesItem = ({ img, name, price, genre}) => {
       <div className='relative mx-auto h-auto w-auto duration-300 py-4 pl-4 inline-block'>
         <Link href="/">
           <Image className='relative h-[450px] w-[450px] object-cover' src={img} width={300} height={300} alt='sneakers' priority />
-          <div className="flex items-center justify-between">
-              <p className='duration-300 pt-4'>{name}</p>
-            <p className='pt-4'>${price}</p>
+          <div className="flex flex-col md:flex-row justify-between pt-4">
+            <div>
+              <p className='duration-300'>{name}</p>
+              <p className='text-gray-500 font-light'>{genre}'s Shoes</p>
+            </div>
+            <p className='py-1 text-sm md:text-base'>${price}</p>
           </div>
-          <p className='text-gray-500 font-light'>{genre}'s Shoes</p>
         </Link>
       </div>
     </>
