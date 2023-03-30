@@ -13,7 +13,7 @@ export const Month = () => {
           </div>
           <div className="absolute bottom-[20%] left-[4%] flex flex-col w-[50%]">
             <p className='text-white py-4 text-xl'>Get The lastest Air on the Nike App</p>
-            <p className='rounded-3xl text-black text-center font-medium py-2 px-5 bg-white w-40'>Download Now</p>
+            <p className='rounded-3xl text-black text-center font-medium py-2 px-5 bg-white hover:bg-gray-400 w-40 duration-300 cursor-pointer'>Download Now</p>
           </div>
         </div>
       </div>
