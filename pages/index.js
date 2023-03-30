@@ -2,9 +2,9 @@ import { NavbarUp } from '@/components/NavbarUp'
 import { NavbarDown } from '@/components/NavbarDown'
 import { Hero } from '@/components/Hero'
 import Head from 'next/head'
-import Image from 'next/image'
 import { Slider } from '@/components/Slider'
 import { Exclusives } from '@/components/Exclusives'
+import { Explore } from '@/components/Explore'
 
 export default function Home() {
   return (
@@ -23,6 +23,7 @@ export default function Home() {
       <Hero />
       <Slider />
       <Exclusives />
+      <Explore />
     </>
   )
 }

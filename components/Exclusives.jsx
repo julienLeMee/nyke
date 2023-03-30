@@ -5,7 +5,7 @@ export const Exclusives = () => {
   return (
     <>
       <div className="mb-10">
-        <div className='px-8 py-4'>
+        <div className='px-8 py-2'>
           <p className='px-4 text-2xl tracking-wide font-medium text-black/80'>SNKRS Exclusives</p>
         </div>
         <div className='w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth relative px-8'>
