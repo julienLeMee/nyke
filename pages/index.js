@@ -8,6 +8,8 @@ import { Explore } from '@/components/Explore'
 import { Sport } from '@/components/Sport'
 import { Month } from '@/components/Month'
 import { Membership } from '@/components/Membership'
+import { FooterUp } from '@/components/FooterUp'
+import { FooterDown } from '@/components/FooterDown'
 
 export default function Home() {
   return (
@@ -30,6 +32,8 @@ export default function Home() {
       <Sport />
       <Month />
       <Membership />
+      <FooterUp />
+      <FooterDown />
     </>
   )
 }
