@@ -11,9 +11,9 @@ export const FooterDown = () => {
       <div className='bg-black pt-8 px-8'>
         <div className='w-full flex justify-between mx-auto'>
 
-        <div className='text-white w-full md:w-[60%] max-w-[95%] h-full flex flex-col md:flex-row justify-around'>
+        <div className='text-white w-full md:w-[70%] max-w-[95%] h-full flex flex-col md:flex-row'>
 
-          <div className='flex flex-col'>
+          <div className='flex flex-col mr-20'>
             <div className="p-2">
               <h6 className='uppercase text-xs tracking-widest'>Find a Store</h6>
             </div>
@@ -31,7 +31,7 @@ export const FooterDown = () => {
             </div>
           </div>
 
-          <div className='flex flex-col'>
+          <div className='flex flex-col mr-20'>
             <div className="p-2">
               <h6 className='uppercase text-xs tracking-widest'>Shoes</h6>
             </div>
@@ -46,7 +46,7 @@ export const FooterDown = () => {
             </div>
           </div>
 
-          <div className='flex flex-col'>
+          <div className='flex flex-col mr-20'>
             <div className="p-2">
               <h6 className='uppercase text-xs tracking-widest'>About Nike</h6>
             </div>
@@ -60,7 +60,7 @@ export const FooterDown = () => {
             </div>
           </div>
 
-          <div className='flex flex-col'>
+          <div className='flex flex-col mr-20'>
             <div className="p-2">
               <h6 className='uppercase text-xs tracking-widest'>Join Us</h6>
             </div>
