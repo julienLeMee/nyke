@@ -132,16 +132,6 @@ export const NavbarDown = () => {
         </div>
       </div>
 
-      {/* Drop down */}
-      {/* <div class="absolute py-0 z-10 bg-red-200 group-hover:block text-black w-screen h-auto">
-        <a href="http://www.julienlemee.com" class="block text-sm py-2 px-4 hover:bg-[#8DD416] duration-200">Portfolio</a>
-        <a href="https://www.linkedin.com/in/julien-le-mee/" target="_blank" class="block text-sm py-2 px-4 hover:bg-[#8DD416] duration-200">LinkedIn</a>
-        <a href="https://github.com/julienLeMee" target="_blank" class="block text-sm py-2 px-4 hover:bg-[#8DD416] duration-200">Github</a>
-        <a href="http://www.julienlemee.com" class="block text-sm py-2 px-4 hover:bg-[#8DD416] duration-200">Portfolio</a>
-        <a href="https://www.linkedin.com/in/julien-le-mee/" target="_blank" class="block text-sm py-2 px-4 hover:bg-[#8DD416] duration-200">LinkedIn</a>
-        <a href="https://github.com/julienLeMee" target="_blank" class="block text-sm py-2 px-4 hover:bg-[#8DD416] duration-200">Github</a>
-      </div> */}
-
     </>
   )
 }
