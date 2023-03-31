@@ -28,7 +28,7 @@ export const NavbarDown = () => {
     )}
       <div className="flex items-center justify-between w-[95%] mx-auto py-1">
         <div className='w-[80px]'>
-          <img src="nike-logo.png" alt="air jordan logo" width={80} height={80} className='scale-x-[-1]' />
+          <img src="nike-logo.png" alt="air jordan logo" width={80} height={80} className='scale-x-[-1] cursor-pointer hover:opacity-60' />
         </div>
         <div className='hidden lg:block'>
           <ul className='flex ml-52 duration-300'>
