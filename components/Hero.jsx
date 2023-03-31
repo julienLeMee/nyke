@@ -15,7 +15,7 @@ export const Hero = () => {
       </div>
       <div className='text-center p-8 max-w-[95%] mx-auto'>
         <p className='py-2'>Just in</p>
-        <h1 className='font-bold text-7xl'>NYKE AIR MAX PULSE</h1>
+        <h1 className='font-bold text-5xl md:text-7xl'>NYKE AIR MAX PULSE</h1>
         <p className='py-8 tracking-wide'>Inspired by the energy of London’s music scene comes the Air Max Pulse. A tough silhouette infused with an unreal sensation of Air.</p>
         <button className='bg-black text-white py-2 px-6 rounded-full hover:bg-black/50'>Shop</button>
       </div>
