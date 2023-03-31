@@ -38,6 +38,7 @@ export const NavbarDown = () => {
             <li className='ml-4 p-2 border-transparent hover:border-black border-b-2 duration-300'>Kids</li>
           </ul>
         </div>
+
         <div className='flex items-center'>
           <div className='hidden lg:block bg-gray-100 rounded-full hover:bg-black/10'>
             <div className='flex items-center mr-3'>
@@ -61,7 +62,7 @@ export const NavbarDown = () => {
       </div>
 
       {/* Mobile Menu */}
-      <div className={ nav ? 'absolute top-0 right-0 bottom-0 flex flex-col justify-between py-10 items-center w-[60%] h-full bg-white ease-in duration-500 z-50' : 'absolute top-0 right-[-100%] bottom-0 flex flex-col justify-between py-10 items-center w-[60%] h-full bg-white ease-in duration-500 z-50'}>
+      <div className={ nav ? 'fixed top-0 right-0 bottom-0 flex flex-col justify-between py-10 items-center w-[60%] h-screen bg-white ease-in duration-500 z-50' : 'fixed top-0 right-[-100%] bottom-0 flex flex-col justify-between py-10 items-center w-[60%] h-full bg-white ease-in duration-500 z-50'}>
         <div className="w-[80%] flex justify-end">
           <AiOutlineClose onClick={handleNav} size={40} style={{color: 'black'}} className='hover:cursor-pointer text-black/80 hover:bg-black/10 rounded-full p-2 duration-300' />
         </div>
@@ -130,6 +131,16 @@ export const NavbarDown = () => {
           </ul>
         </div>
       </div>
+
+      {/* Drop down */}
+      {/* <div class="absolute py-0 z-10 bg-red-200 group-hover:block text-black w-screen h-auto">
+        <a href="http://www.julienlemee.com" class="block text-sm py-2 px-4 hover:bg-[#8DD416] duration-200">Portfolio</a>
+        <a href="https://www.linkedin.com/in/julien-le-mee/" target="_blank" class="block text-sm py-2 px-4 hover:bg-[#8DD416] duration-200">LinkedIn</a>
+        <a href="https://github.com/julienLeMee" target="_blank" class="block text-sm py-2 px-4 hover:bg-[#8DD416] duration-200">Github</a>
+        <a href="http://www.julienlemee.com" class="block text-sm py-2 px-4 hover:bg-[#8DD416] duration-200">Portfolio</a>
+        <a href="https://www.linkedin.com/in/julien-le-mee/" target="_blank" class="block text-sm py-2 px-4 hover:bg-[#8DD416] duration-200">LinkedIn</a>
+        <a href="https://github.com/julienLeMee" target="_blank" class="block text-sm py-2 px-4 hover:bg-[#8DD416] duration-200">Github</a>
+      </div> */}
 
     </>
   )
