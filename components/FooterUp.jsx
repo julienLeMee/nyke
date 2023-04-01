@@ -21,7 +21,7 @@ export const FooterUp = () => {
 
         <div className='flex flex-col'>
           <div className="p-2">
-            <p className='font-medium text-black/80'>Shoes</p>
+            <p className='font-medium text-black/80'>Clothing</p>
           </div>
           <div className="hidden md:block p-2">
             <ul className='sm:hidden md:block'>
@@ -35,7 +35,7 @@ export const FooterUp = () => {
 
         <div className='flex flex-col'>
           <div className="p-2">
-            <p className='font-medium text-black/80'>Shoes</p>
+            <p className='font-medium text-black/80'>Kids'</p>
           </div>
           <div className="hidden md:block p-2">
             <ul className='sm:hidden md:block'>
@@ -49,7 +49,7 @@ export const FooterUp = () => {
 
         <div className='flex flex-col'>
           <div className="p-2">
-            <p className='font-medium text-black/80'>Shoes</p>
+            <p className='font-medium text-black/80'>Featured</p>
           </div>
           <div className="hidden md:block p-2">
             <ul className='sm:hidden md:block'>

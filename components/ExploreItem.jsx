@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { BsEye } from 'react-icons/bs'
 
-export const ExploreItem = ({ img, genre}) => {
+export const ExploreItem = ({ img, genre }) => {
   return (
     <>
       <div className='relative mx-auto h-auto w-auto duration-300 py-4 pl-4 inline-block'>
