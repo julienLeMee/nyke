@@ -40,10 +40,10 @@ export const Exclusives = () => {
             img='https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/w_441,c_limit/1985a880-4040-4a90-a636-5fd00db3ef77/terminator-high-og-shoes.png'
           />
           <ExclusivesItem
-            name='Nike Air Max Cortez'
-            price='115'
+            name="Nike Air Max 1 '87 Safari"
+            price='190'
             genre='Women'
-            img='https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/w_441,c_limit/c9d2720e-d75b-4532-96ad-350b79f4c963/cortez-shoes.png'
+            img='https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_555,c_limit/8b1cf99e-3157-47b7-bcb1-11148e48ebb4/air-max-1-87-safari-shoes.png'
           />
           <ExclusivesItem
             name='Nike Terminator High'
