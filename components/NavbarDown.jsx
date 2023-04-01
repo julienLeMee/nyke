@@ -39,6 +39,17 @@ export const NavbarDown = () => {
           </ul>
         </div>
 
+        {/* Drop down */}
+        {/* <div class="absolute top-4 right-0 p-4 z-10 bg-white hidden group-hover:block text-black w-64 h-auto">
+          <p className='mb-4 font-medium px-4'>Help</p>
+          <a href="http://www.julienlemee.com" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Portfolio</a>
+          <a href="https://www.linkedin.com/in/julien-le-mee/" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">LinkedIn</a>
+          <a href="https://github.com/julienLeMee" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Github</a>
+          <a href="http://www.julienlemee.com" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Portfolio</a>
+          <a href="https://www.linkedin.com/in/julien-le-mee/" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">LinkedIn</a>
+          <a href="https://github.com/julienLeMee" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Github</a>
+        </div> */}
+
         <div className='flex items-center'>
           <div className='hidden lg:block bg-gray-100 rounded-full hover:bg-black/10'>
             <div className='flex items-center mr-3'>
