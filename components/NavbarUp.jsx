@@ -12,17 +12,19 @@ export const NavbarUp = () => {
           <div className='items-center inline-block'>
             <div className='flex'>
               <p className='text-xs px-4 cursor-pointer hover:text-black/60'>Find a store</p>
-              <div className='relative group'>
+              <div className='relative group duration-300'>
                 <p className='text-xs px-4 cursor-pointer hover:text-black/60 border-black border-l-2'>Help</p>
                 {/* Drop down */}
-                <div class="absolute top-4 right-0 p-4 z-10 bg-white hidden group-hover:block text-black w-64 h-auto">
+                <div class="absolute top-4 right-0 p-4 z-10 bg-white hidden group-hover:block text-black w-64 h-auto duration-300">
                   <p className='mb-4 font-medium px-4'>Help</p>
-                  <a href="http://www.julienlemee.com" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Portfolio</a>
-                  <a href="https://www.linkedin.com/in/julien-le-mee/" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">LinkedIn</a>
-                  <a href="https://github.com/julienLeMee" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Github</a>
-                  <a href="http://www.julienlemee.com" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Portfolio</a>
-                  <a href="https://www.linkedin.com/in/julien-le-mee/" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">LinkedIn</a>
-                  <a href="https://github.com/julienLeMee" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Github</a>
+                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200">Order Status</a>
+                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200">Dispatch & Delivery</a>
+                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200">Returns</a>
+                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200">Contact Us</a>
+                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200">Privacy Policy</a>
+                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200">Terms of Sale</a>
+                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200">Terms of Use</a>
+                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200">Send us Feedback</a>
                 </div>
               </div>
               <p className='text-xs px-4 cursor-pointer hover:text-black/60 border-black border-l-2'>Join Us</p>
