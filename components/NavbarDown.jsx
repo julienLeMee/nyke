@@ -38,53 +38,52 @@ export const NavbarDown = () => {
               <p className='ml-4 p-2 border-transparent hover:border-black border-b-2 cursor-pointer'>New & Featured</p>
               {/* Drop down */}
                 <div class="absolute w-screen top-15 left-[-3%] p-12 z-10 bg-white shadow-lg hidden group-hover:block text-black h-auto duration-300">
-                  <div className="flex justify-center gap-8">
+                  <div className="flex justify-center">
                     <Dropdown
                       title='Featured'
                       links={[
-                        { title: 'Order Status', link: '/' },
-                        { title: 'Dispatch & Delivery', link: '/' },
-                        { title: 'Returns', link: '/' },
-                        { title: 'Contact Us', link: '/' },
-                        { title: 'FAQs', link: '/' },
+                        { title: 'Shop All New Arrivals', link: '/' },
+                        { title: 'New Shoes', link: '/' },
+                        { title: 'New Clothing', link: '/' },
+                        { title: 'SNKRS Launch Calendar', link: '/' },
+                        { title: 'Member Shop', link: '/' },
+                        { title: 'Bestsellers', link: '/' },
                       ]}
                     />
                     <Dropdown
                       title='Shop Icons'
                       links={[
-                        { title: 'Order Status', link: '/' },
-                        { title: 'Dispatch & Delivery', link: '/' },
-                        { title: 'Returns', link: '/' },
-                        { title: 'Contact Us', link: '/' },
-                        { title: 'FAQs', link: '/' },
-                        { title: 'Contact Us', link: '/' },
-                        { title: 'FAQs', link: '/' },
+                        { title: 'Air Force 1', link: '/' },
+                        { title: 'Air Jordan 1', link: '/' },
+                        { title: 'Air Max', link: '/' },
+                        { title: 'Dunk', link: '/' },
+                        { title: 'Blazer', link: '/' },
+                        { title: 'Pegasus', link: '/' },
+                        { title: 'Mercurial', link: '/' },
                       ]}
                     />
                     <Dropdown
                       title='Best Reads'
                       links={[
-                        { title: 'Order Status', link: '/' },
-                        { title: 'Dispatch & Delivery', link: '/' },
-                        { title: 'Returns', link: '/' },
-                        { title: 'Contact Us', link: '/' },
-                        { title: 'FAQs', link: '/' },
-                        { title: 'Returns', link: '/' },
-                        { title: 'Contact Us', link: '/' },
-                        { title: 'FAQs', link: '/' },
+                        { title: '.Swoosh', link: '/' },
+                        { title: 'Jordan Collection', link: '/' },
+                        { title: 'Nike SB - The Vault', link: '/' },
+                        { title: 'Sustainability', link: '/' },
+                        { title: 'Trained Podcast - Body Positivity', link: '/' },
+                        { title: 'Never Done Making History - Tigerbelles', link: '/' },
+                        { title: 'Bust Through Any Mental Blocks', link: '/' },
                       ]}
                     />
                     <Dropdown
                       title='Nike Stories'
                       links={[
-                        { title: 'Order Status', link: '/' },
-                        { title: 'Dispatch & Delivery', link: '/' },
-                        { title: 'Returns', link: '/' },
-                        { title: 'Contact Us', link: '/' },
-                        { title: 'FAQs', link: '/' },
-                        { title: 'Returns', link: '/' },
-                        { title: 'Contact Us', link: '/' },
-                        { title: 'FAQs', link: '/' },
+                        { title: 'All Stories', link: '/' },
+                        { title: 'Athletes*', link: '/' },
+                        { title: 'Department of Nike Archives (DNA)', link: '/' },
+                        { title: 'Coaching', link: '/' },
+                        { title: 'Culture', link: '/' },
+                        { title: 'Innovation', link: '/' },
+                        { title: 'Community', link: '/' },
                       ]}
                     />
                   </div>
@@ -95,7 +94,7 @@ export const NavbarDown = () => {
               <p className='ml-4 p-2 border-transparent hover:border-black border-b-2 cursor-pointer'>Men</p>
               {/* Drop down */}
                 <div class="absolute w-screen top-15 left-[-3%] p-12 z-10 bg-white shadow-lg hidden group-hover:block text-black h-auto duration-300">
-                  <div className="flex justify-center gap-8">
+                  <div className="flex justify-center">
                     <Dropdown
                       title='Featured'
                       links={[
@@ -160,7 +159,7 @@ export const NavbarDown = () => {
               <p className='ml-4 p-2 border-transparent hover:border-black border-b-2 cursor-pointer'>Women</p>
               {/* Drop down */}
                 <div class="absolute w-screen top-15 left-[-3%] p-12 z-10 bg-white shadow-lg hidden group-hover:block text-black h-auto duration-300">
-                  <div className="flex justify-center gap-8">
+                  <div className="flex justify-center">
                     <Dropdown
                       title='Featured'
                       links={[
@@ -224,7 +223,7 @@ export const NavbarDown = () => {
               <p className='ml-4 p-2 border-transparent hover:border-black border-b-2 cursor-pointer'>Kids</p>
               {/* Drop down */}
                 <div class="absolute w-screen top-15 left-[-3%] p-12 z-10 bg-white shadow-lg hidden group-hover:block text-black h-auto duration-300">
-                  <div className="flex justify-center gap-8">
+                  <div className="flex justify-center">
                     <Dropdown
                       title='Featured'
                       links={[
