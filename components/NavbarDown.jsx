@@ -120,6 +120,18 @@ export const NavbarDown = () => {
                       ]}
                     />
                     <Dropdown
+                      title='Shop By Sport'
+                      links={[
+                        { title: 'Order Status', link: '/' },
+                        { title: 'Dispatch & Delivery', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                      ]}
+                    />
+                    <Dropdown
                       title='Clothing'
                       links={[
                         { title: 'Order Status', link: '/' },
@@ -130,18 +142,6 @@ export const NavbarDown = () => {
                         { title: 'Returns', link: '/' },
                         { title: 'Contact Us', link: '/' },
                         { title: 'FAQs', link: '/' },
-                      ]}
-                    />
-                    <Dropdown
-                      title='Shop By Sport'
-                      links={[
-                        { title: 'Order Status', link: '/' },
-                        { title: 'Dispatch & Delivery', link: '/' },
-                        { title: 'Returns', link: '/' },
-                        { title: 'Contact Us', link: '/' },
-                        { title: 'FAQs', link: '/' },
-                        { title: 'Returns', link: '/' },
-                        { title: 'Contact Us', link: '/' },
                       ]}
                     />
                     <Dropdown
@@ -179,9 +179,6 @@ export const NavbarDown = () => {
                         { title: 'Contact Us', link: '/' },
                         { title: 'FAQs', link: '/' },
                         { title: 'Contact Us', link: '/' },
-                        { title: 'FAQs', link: '/' },
-                        { title: 'Contact Us', link: '/' },
-                        { title: 'FAQs', link: '/' },
                       ]}
                     />
                     <Dropdown
@@ -193,6 +190,8 @@ export const NavbarDown = () => {
                         { title: 'Contact Us', link: '/' },
                         { title: 'FAQs', link: '/' },
                         { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
                         { title: 'Contact Us', link: '/' },
                         { title: 'FAQs', link: '/' },
                       ]}
