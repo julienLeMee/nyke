@@ -17,14 +17,14 @@ export const NavbarUp = () => {
                 {/* Drop down */}
                 <div class="absolute top-4 right-0 p-4 z-10 bg-white hidden group-hover:block text-black w-64 h-auto duration-300">
                   <p className='mb-4 font-medium px-4'>Help</p>
-                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200">Order Status</a>
-                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200">Dispatch & Delivery</a>
-                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200">Returns</a>
-                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200">Contact Us</a>
-                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200">Privacy Policy</a>
-                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200">Terms of Sale</a>
-                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200">Terms of Use</a>
-                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200">Send us Feedback</a>
+                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200 cursor-pointer">Order Status</a>
+                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200 cursor-pointer">Dispatch & Delivery</a>
+                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200 cursor-pointer">Returns</a>
+                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200 cursor-pointer">Contact Us</a>
+                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200 cursor-pointer">Privacy Policy</a>
+                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200 cursor-pointer">Terms of Sale</a>
+                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200 cursor-pointer">Terms of Use</a>
+                  <a href="/" class="block text-sm py-1 px-4 text-black/50 hover:text-black duration-200 cursor-pointer">Send us Feedback</a>
                 </div>
               </div>
               <p className='text-xs px-4 cursor-pointer hover:text-black/60 border-black border-l-2'>Join Us</p>

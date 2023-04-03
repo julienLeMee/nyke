@@ -9,6 +9,7 @@ import { useState } from 'react'
 import { BsBoxSeam } from 'react-icons/bs'
 import { IoStorefrontOutline } from 'react-icons/io5'
 import { FiHelpCircle } from 'react-icons/fi'
+import { Dropdown } from './Dropdown'
 
 export const NavbarDown = () => {
   const [nav, setNav] = useState(false)
@@ -31,23 +32,252 @@ export const NavbarDown = () => {
           <img src="nike-logo.png" alt="air jordan logo" width={80} height={80} className='scale-x-[-1] cursor-pointer hover:opacity-60' />
         </div>
         <div className='hidden lg:block'>
-          <div className='flex ml-52 duration-300'>
-            <div className='group duration-300'>
-              <p className='ml-4 p-2 border-transparent hover:border-black border-b-2 cursor-pointer duration-300'>New & Featured</p>
+          <div className='flex ml-52'>
+            {/* New & Featured */}
+            <div className='group'>
+              <p className='ml-4 p-2 border-transparent hover:border-black border-b-2 cursor-pointer'>New & Featured</p>
               {/* Drop down */}
-                <div class="absolute w-screen top-15 left-[-3%] p-4 z-10 bg-white hidden group-hover:block text-black h-auto">
-                  <p className='mb-4 font-medium px-4'>Help</p>
-                  <a href="/" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Portfolio</a>
-                  <a href="/" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">LinkedIn</a>
-                  <a href="/" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Github</a>
-                  <a href="/" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Portfolio</a>
-                  <a href="/" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">LinkedIn</a>
-                  <a href="/" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Github</a>
+                <div class="absolute w-screen top-15 left-[-3%] p-12 z-10 bg-white shadow-lg hidden group-hover:block text-black h-auto duration-300">
+                  <div className="flex justify-center gap-8">
+                    <Dropdown
+                      title='Featured'
+                      links={[
+                        { title: 'Order Status', link: '/' },
+                        { title: 'Dispatch & Delivery', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                      ]}
+                    />
+                    <Dropdown
+                      title='Shop Icons'
+                      links={[
+                        { title: 'Order Status', link: '/' },
+                        { title: 'Dispatch & Delivery', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                      ]}
+                    />
+                    <Dropdown
+                      title='Best Reads'
+                      links={[
+                        { title: 'Order Status', link: '/' },
+                        { title: 'Dispatch & Delivery', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                      ]}
+                    />
+                    <Dropdown
+                      title='Nike Stories'
+                      links={[
+                        { title: 'Order Status', link: '/' },
+                        { title: 'Dispatch & Delivery', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                      ]}
+                    />
+                  </div>
                 </div>
             </div>
-            <p className='ml-4 p-2 border-transparent hover:border-black border-b-2 cursor-pointer duration-300'>Men</p>
-            <p className='ml-4 p-2 border-transparent hover:border-black border-b-2 cursor-pointer duration-300'>Women</p>
-            <p className='ml-4 p-2 border-transparent hover:border-black border-b-2 cursor-pointer duration-300'>Kids</p>
+            {/* Men */}
+            <div className='group'>
+              <p className='ml-4 p-2 border-transparent hover:border-black border-b-2 cursor-pointer'>Men</p>
+              {/* Drop down */}
+                <div class="absolute w-screen top-15 left-[-3%] p-12 z-10 bg-white shadow-lg hidden group-hover:block text-black h-auto duration-300">
+                  <div className="flex justify-center gap-8">
+                    <Dropdown
+                      title='Featured'
+                      links={[
+                        { title: 'Order Status', link: '/' },
+                        { title: 'Dispatch & Delivery', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                      ]}
+                    />
+                    <Dropdown
+                      title='Shoes'
+                      links={[
+                        { title: 'Order Status', link: '/' },
+                        { title: 'Dispatch & Delivery', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                      ]}
+                    />
+                    <Dropdown
+                      title='Clothing'
+                      links={[
+                        { title: 'Order Status', link: '/' },
+                        { title: 'Dispatch & Delivery', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                      ]}
+                    />
+                    <Dropdown
+                      title='Shop By Sport'
+                      links={[
+                        { title: 'Order Status', link: '/' },
+                        { title: 'Dispatch & Delivery', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                      ]}
+                    />
+                    <Dropdown
+                      title='Accessories and Equipment'
+                      links={[
+                        { title: 'Order Status', link: '/' },
+                        { title: 'Dispatch & Delivery', link: '/' },
+                        { title: 'Returns', link: '/' },
+                      ]}
+                    />
+                  </div>
+                </div>
+            </div>
+            {/* Women */}
+            <div className='group'>
+              <p className='ml-4 p-2 border-transparent hover:border-black border-b-2 cursor-pointer'>Women</p>
+              {/* Drop down */}
+                <div class="absolute w-screen top-15 left-[-3%] p-12 z-10 bg-white shadow-lg hidden group-hover:block text-black h-auto duration-300">
+                  <div className="flex justify-center gap-8">
+                    <Dropdown
+                      title='Featured'
+                      links={[
+                        { title: 'Order Status', link: '/' },
+                        { title: 'Dispatch & Delivery', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                      ]}
+                    />
+                    <Dropdown
+                      title='Shoes'
+                      links={[
+                        { title: 'Order Status', link: '/' },
+                        { title: 'Dispatch & Delivery', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                      ]}
+                    />
+                    <Dropdown
+                      title='Clothing'
+                      links={[
+                        { title: 'Order Status', link: '/' },
+                        { title: 'Dispatch & Delivery', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                      ]}
+                    />
+                    <Dropdown
+                      title='Shop By Sport'
+                      links={[
+                        { title: 'Order Status', link: '/' },
+                        { title: 'Dispatch & Delivery', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                      ]}
+                    />
+                    <Dropdown
+                      title='Accessories and Equipment'
+                      links={[
+                        { title: 'Order Status', link: '/' },
+                        { title: 'Dispatch & Delivery', link: '/' },
+                        { title: 'Returns', link: '/' },
+                      ]}
+                    />
+                  </div>
+                </div>
+            </div>
+            {/* Kids */}
+            <div className='group'>
+              <p className='ml-4 p-2 border-transparent hover:border-black border-b-2 cursor-pointer'>Kids</p>
+              {/* Drop down */}
+                <div class="absolute w-screen top-15 left-[-3%] p-12 z-10 bg-white shadow-lg hidden group-hover:block text-black h-auto duration-300">
+                  <div className="flex justify-center gap-8">
+                    <Dropdown
+                      title='Featured'
+                      links={[
+                        { title: 'Order Status', link: '/' },
+                        { title: 'Dispatch & Delivery', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                      ]}
+                    />
+                    <Dropdown
+                      title='Shop Icons'
+                      links={[
+                        { title: 'Order Status', link: '/' },
+                        { title: 'Dispatch & Delivery', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                      ]}
+                    />
+                    <Dropdown
+                      title='Best Reads'
+                      links={[
+                        { title: 'Order Status', link: '/' },
+                        { title: 'Dispatch & Delivery', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                      ]}
+                    />
+                    <Dropdown
+                      title='Nike Stories'
+                      links={[
+                        { title: 'Order Status', link: '/' },
+                        { title: 'Dispatch & Delivery', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                        { title: 'Returns', link: '/' },
+                        { title: 'Contact Us', link: '/' },
+                        { title: 'FAQs', link: '/' },
+                      ]}
+                    />
+                  </div>
+                </div>
+            </div>
+
           </div>
         </div>
 
@@ -147,3 +377,13 @@ export const NavbarDown = () => {
     </>
   )
 }
+
+{/* <div class="absolute w-screen top-15 left-[-3%] p-4 z-10 bg-white hidden group-hover:block text-black h-auto">
+      <p className='mb-4 font-medium px-4'>Help</p>
+      <a href="/" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Portfolio</a>
+      <a href="/" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">LinkedIn</a>
+      <a href="/" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Github</a>
+      <a href="/" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Portfolio</a>
+      <a href="/" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">LinkedIn</a>
+      <a href="/" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Github</a>
+    </div> */}
