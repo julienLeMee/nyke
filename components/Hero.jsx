@@ -19,10 +19,10 @@ export const Hero = () => {
         <p className='py-8 tracking-wide'>Inspired by the energy of London’s music scene comes the Air Max Pulse. A tough silhouette infused with an unreal sensation of Air.</p>
         <button className='bg-black text-white py-2 px-6 rounded-full hover:bg-black/50'>Shop</button>
       </div>
-      <video className='w-full h-full object-cover' autoPlay loop muted style={{ width: "100%", height: "100%" }}>
+      <img src="https://static.nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/ba743504-5a47-493e-a34b-e4a0b1981ec7/image.jpg" alt="air max" width={1920} height={1080} className="-z-10 absolute" />
+      <video className='w-full h-full object-cover z-10' autoPlay loop muted style={{ width: "100%", height: "100%" }}>
         <source src="air-max-pulse.mp4" type="video/mp4" />
       </video>
-      {/* <img src="https://static.nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/ba743504-5a47-493e-a34b-e4a0b1981ec7/image.jpg" alt="air max" width={1920} height={1080} /> */}
     </>
   )
 }
