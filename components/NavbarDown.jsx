@@ -37,12 +37,12 @@ export const NavbarDown = () => {
               {/* Drop down */}
                 <div class="absolute w-screen top-15 left-[-3%] p-4 z-10 bg-white hidden group-hover:block text-black h-auto">
                   <p className='mb-4 font-medium px-4'>Help</p>
-                  <a href="http://www.julienlemee.com" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Portfolio</a>
-                  <a href="https://www.linkedin.com/in/julien-le-mee/" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">LinkedIn</a>
-                  <a href="https://github.com/julienLeMee" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Github</a>
-                  <a href="http://www.julienlemee.com" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Portfolio</a>
-                  <a href="https://www.linkedin.com/in/julien-le-mee/" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">LinkedIn</a>
-                  <a href="https://github.com/julienLeMee" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Github</a>
+                  <a href="/" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Portfolio</a>
+                  <a href="/" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">LinkedIn</a>
+                  <a href="/" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Github</a>
+                  <a href="/" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Portfolio</a>
+                  <a href="/" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">LinkedIn</a>
+                  <a href="/" target="_blank" class="block text-sm py-2 px-4 text-black/50 hover:text-black duration-200">Github</a>
                 </div>
             </div>
             <p className='ml-4 p-2 border-transparent hover:border-black border-b-2 cursor-pointer duration-300'>Men</p>
