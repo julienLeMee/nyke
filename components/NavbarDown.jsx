@@ -163,56 +163,56 @@ export const NavbarDown = () => {
                     <Dropdown
                       title='Featured'
                       links={[
-                        { title: 'Order Status', link: '/' },
-                        { title: 'Dispatch & Delivery', link: '/' },
-                        { title: 'Returns', link: '/' },
-                        { title: 'Contact Us', link: '/' },
+                        { title: 'New Releases', link: '/' },
+                        { title: 'SNKRS Launch Calendar', link: '/' },
+                        { title: 'Fleece Shop', link: '/' },
+                        { title: 'Bestsellers', link: '/' },
                       ]}
                     />
                     <Dropdown
                       title='Shoes'
                       links={[
-                        { title: 'Order Status', link: '/' },
-                        { title: 'Dispatch & Delivery', link: '/' },
-                        { title: 'Returns', link: '/' },
-                        { title: 'Contact Us', link: '/' },
-                        { title: 'FAQs', link: '/' },
-                        { title: 'Contact Us', link: '/' },
+                        { title: 'All Shoes', link: '/' },
+                        { title: 'Lifestyle', link: '/' },
+                        { title: 'Jordan', link: '/' },
+                        { title: 'Running', link: '/' },
+                        { title: 'Training and Gym', link: '/' },
+                        { title: 'Nyke By You', link: '/' },
                       ]}
                     />
                     <Dropdown
                       title='Clothing'
                       links={[
-                        { title: 'Order Status', link: '/' },
-                        { title: 'Dispatch & Delivery', link: '/' },
-                        { title: 'Returns', link: '/' },
-                        { title: 'Contact Us', link: '/' },
-                        { title: 'FAQs', link: '/' },
-                        { title: 'Returns', link: '/' },
-                        { title: 'Contact Us', link: '/' },
-                        { title: 'FAQs', link: '/' },
-                        { title: 'Contact Us', link: '/' },
-                        { title: 'FAQs', link: '/' },
+                        { title: 'All Clothing', link: '/' },
+                        { title: 'Hoodies and Sweatshirts', link: '/' },
+                        { title: 'Jackets', link: '/' },
+                        { title: 'Trousers', link: '/' },
+                        { title: 'Leggings', link: '/' },
+                        { title: 'Matching Sets', link: '/' },
+                        { title: 'Top and T-Shirts', link: '/' },
+                        { title: 'Shorts', link: '/' },
+                        { title: 'Sports Bras', link: '/' },
+                        { title: 'Skirts and dresses', link: '/' },
                       ]}
                     />
                     <Dropdown
                       title='Shop By Sport'
                       links={[
-                        { title: 'Order Status', link: '/' },
-                        { title: 'Dispatch & Delivery', link: '/' },
-                        { title: 'Returns', link: '/' },
-                        { title: 'Contact Us', link: '/' },
-                        { title: 'FAQs', link: '/' },
-                        { title: 'Returns', link: '/' },
-                        { title: 'Contact Us', link: '/' },
+                        { title: 'All Sports', link: '/' },
+                        { title: 'Running', link: '/' },
+                        { title: 'Training and Gym', link: '/' },
+                        { title: 'Tennis', link: '/' },
+                        { title: 'Football', link: '/' },
+                        { title: 'Yoga', link: '/' },
+                        { title: 'Dance', link: '/' },
                       ]}
                     />
                     <Dropdown
                       title='Accessories and Equipment'
                       links={[
-                        { title: 'Order Status', link: '/' },
-                        { title: 'Dispatch & Delivery', link: '/' },
-                        { title: 'Returns', link: '/' },
+                        { title: 'All Accessories and Equipment', link: '/' },
+                        { title: 'Bags and Backpacks', link: '/' },
+                        { title: 'Socks', link: '/' },
                       ]}
                     />
                   </div>
@@ -224,52 +224,55 @@ export const NavbarDown = () => {
               {/* Drop down */}
                 <div class="absolute w-screen top-15 left-[-3%] p-12 z-10 bg-white shadow-lg hidden group-hover:block text-black h-auto duration-300">
                   <div className="flex justify-center">
-                    <Dropdown
+                  <Dropdown
                       title='Featured'
                       links={[
-                        { title: 'Order Status', link: '/' },
-                        { title: 'Dispatch & Delivery', link: '/' },
-                        { title: 'Returns', link: '/' },
-                        { title: 'Contact Us', link: '/' },
-                        { title: 'FAQs', link: '/' },
+                        { title: 'New Releases', link: '/' },
+                        { title: 'Fleece Shop', link: '/' },
+                        { title: 'Bestsellers', link: '/' },
                       ]}
                     />
                     <Dropdown
-                      title='Shop Icons'
+                      title='Shoes'
                       links={[
-                        { title: 'Order Status', link: '/' },
-                        { title: 'Dispatch & Delivery', link: '/' },
-                        { title: 'Returns', link: '/' },
-                        { title: 'Contact Us', link: '/' },
-                        { title: 'FAQs', link: '/' },
-                        { title: 'Contact Us', link: '/' },
-                        { title: 'FAQs', link: '/' },
+                        { title: 'All Shoes', link: '/' },
+                        { title: 'Lifestyle', link: '/' },
+                        { title: 'Jordan', link: '/' },
+                        { title: 'Football', link: '/' },
+                        { title: 'Running', link: '/' },
+                        { title: 'Basketball', link: '/' },
                       ]}
                     />
                     <Dropdown
-                      title='Best Reads'
+                      title='Clothing'
                       links={[
-                        { title: 'Order Status', link: '/' },
-                        { title: 'Dispatch & Delivery', link: '/' },
-                        { title: 'Returns', link: '/' },
-                        { title: 'Contact Us', link: '/' },
-                        { title: 'FAQs', link: '/' },
-                        { title: 'Returns', link: '/' },
-                        { title: 'Contact Us', link: '/' },
-                        { title: 'FAQs', link: '/' },
+                        { title: 'All Clothing', link: '/' },
+                        { title: 'Hoodies and Sweatshirts', link: '/' },
+                        { title: 'Tracksuits', link: '/' },
+                        { title: 'Trousers and Leggings', link: '/' },
+                        { title: 'Jackets', link: '/' },
+                        { title: 'Top and T-Shirts', link: '/' },
+                        { title: 'Kits and Jerseys', link: '/' },
+                        { title: 'Sport Clothing', link: '/' },
+                        { title: 'Shorts', link: '/' },
+                        { title: 'Sports Bras', link: '/' },
+                        { title: 'Skirts and dresses', link: '/' },
                       ]}
                     />
                     <Dropdown
-                      title='Nike Stories'
+                      title='Kids by Age'
                       links={[
-                        { title: 'Order Status', link: '/' },
-                        { title: 'Dispatch & Delivery', link: '/' },
-                        { title: 'Returns', link: '/' },
-                        { title: 'Contact Us', link: '/' },
-                        { title: 'FAQs', link: '/' },
-                        { title: 'Returns', link: '/' },
-                        { title: 'Contact Us', link: '/' },
-                        { title: 'FAQs', link: '/' },
+                        { title: 'Older Kids (7 - 15 years)', link: '/' },
+                        { title: 'Younger Kids (3 - 7 years)', link: '/' },
+                        { title: 'Baby and Toddler (0-3 years)', link: '/' },
+                      ]}
+                    />
+                    <Dropdown
+                      title='Accessories and Equipment'
+                      links={[
+                        { title: 'All Accessories and Equipment', link: '/' },
+                        { title: 'Bags and Backpacks', link: '/' },
+                        { title: 'Hats', link: '/' },
                       ]}
                     />
                   </div>
