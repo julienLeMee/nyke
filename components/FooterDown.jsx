@@ -27,21 +27,21 @@ export const FooterDown = () => {
               <h6 className='uppercase text-xs tracking-widest'>Feedback</h6>
             </div>
             <div className="p-2">
-              <h6 className='font-medium uppercase text-xs'>Promocode</h6>
+              <h6 className='font-medium uppercase text-xs'>Promo codes</h6>
             </div>
           </div>
 
           <div className='flex flex-col w-full'>
             <div className="p-2">
-              <h6 className='uppercase text-xs tracking-widest'>Shoes</h6>
+              <h6 className='uppercase text-xs tracking-widest'>Get Help</h6>
             </div>
             <div className="hidden md:flex p-2">
               <ul className='sm:hidden md:block'>
-                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer'>Golf shoes</li>
-                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer'>Winter Trainers</li>
-                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer'>Gore Tex Trainers</li>
-                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer'>Walking trainers</li>
-                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer'>Walking trainers</li>
+                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer font-light'>Order Status</li>
+                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer font-light'>Shipping and Delivery</li>
+                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer font-light'>Returns</li>
+                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer font-light'>Payment Options</li>
+                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer font-light'>Contact Us</li>
               </ul>
             </div>
           </div>
@@ -52,10 +52,10 @@ export const FooterDown = () => {
             </div>
             <div className="hidden md:flex p-2">
               <ul className='sm:hidden md:block'>
-                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer'>Golf shoes</li>
-                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer'>Winter Trainers</li>
-                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer'>Gore Tex Trainers</li>
-                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer'>Walking trainers</li>
+                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer font-light'>News</li>
+                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer font-light'>Careers</li>
+                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer font-light'>Investors</li>
+                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer font-light'>Sustainability</li>
               </ul>
             </div>
           </div>
@@ -66,10 +66,10 @@ export const FooterDown = () => {
             </div>
             <div className="hidden md:flex p-2">
               <ul className='sm:hidden md:block'>
-                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer'>Golf shoes</li>
-                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer'>Winter Trainers</li>
-                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer'>Gore Tex Trainers</li>
-                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer'>Walking trainers</li>
+                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer font-light'>Nike App</li>
+                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer font-light'>Nike Run Club</li>
+                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer font-light'>Nike Training Club</li>
+                <li className='mb-4 line-clamp-1 text-xs text-white/50 hover:text-white cursor-pointer font-light'>SNKRS</li>
               </ul>
             </div>
           </div>
@@ -95,17 +95,17 @@ export const FooterDown = () => {
         <div className="p-2">
           <div className="flex items-center justify-between pt-4">
             <div className="flex">
-              <p className='text-white text-xs flex items-center'><IoMdPin className='mr-2' />Canada</p>
-              <p className='text-white/50 hover:text-white cursor-pointer text-xs ml-6'>© 2023 Nyke, Inc. All Rights Reserved</p>
+              <p className='text-white text-xs flex items-center font-light'><IoMdPin className='mr-2' />Canada</p>
+              <p className='text-white/50 hover:text-white cursor-pointer text-xs ml-6 font-light'>© 2023 Nyke, Inc. All Rights Reserved</p>
             </div>
             <div>
               <ul className="flex justify-end">
-                <li className='text-white/50 hover:text-white cursor-pointer text-xs p-2 mr-2'>Guides</li>
-                <li className='text-white/50 hover:text-white cursor-pointer text-xs p-2 mr-2'>Terms of Use</li>
-                <li className='text-white/50 hover:text-white cursor-pointer text-xs p-2 mr-2'>Terms of Sale</li>
-                <li className='text-white/50 hover:text-white cursor-pointer text-xs p-2 mr-2'>Company Details</li>
-                <li className='text-white/50 hover:text-white cursor-pointer text-xs p-2 mr-2'>Privacy & Cookie Policy</li>
-                <li className='text-white/50 hover:text-white cursor-pointer text-xs p-2 '>Cookie Settings</li>
+                <li className='text-white/50 hover:text-white cursor-pointer font-light text-xs p-2 mr-2'>Guides</li>
+                <li className='text-white/50 hover:text-white cursor-pointer font-light text-xs p-2 mr-2'>Terms of Use</li>
+                <li className='text-white/50 hover:text-white cursor-pointer font-light text-xs p-2 mr-2'>Terms of Sale</li>
+                <li className='text-white/50 hover:text-white cursor-pointer font-light text-xs p-2 mr-2'>Company Details</li>
+                <li className='text-white/50 hover:text-white cursor-pointer font-light text-xs p-2 mr-2'>Privacy & Cookie Policy</li>
+                <li className='text-white/50 hover:text-white cursor-pointer font-light text-xs p-2 '>Cookie Settings</li>
               </ul>
             </div>
           </div>
