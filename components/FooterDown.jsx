@@ -15,19 +15,19 @@ export const FooterDown = () => {
 
           <div className='flex flex-col w-full'>
             <div className="p-2">
-              <h6 className='uppercase text-xs tracking-widest'>Find a Store</h6>
+              <h6 className='uppercase text-xs tracking-widest pb-1'>Find a Store</h6>
             </div>
             <div className="p-2">
-              <h6 className='uppercase text-xs tracking-widest'>Nike Journal</h6>
+              <h6 className='uppercase text-xs tracking-widest pb-1'>Nike Journal</h6>
             </div>
             <div className="p-2">
-              <h6 className='uppercase text-xs tracking-widest'>Become a Member</h6>
+              <h6 className='uppercase text-xs tracking-widest pb-1'>Become a Member</h6>
             </div>
             <div className="p-2">
-              <h6 className='uppercase text-xs tracking-widest'>Feedback</h6>
+              <h6 className='uppercase text-xs tracking-widest pb-1'>Feedback</h6>
             </div>
             <div className="p-2">
-              <h6 className='font-medium uppercase text-xs'>Promo codes</h6>
+              <h6 className='font-medium uppercase text-xs pb-1'>Promo codes</h6>
             </div>
           </div>
 
