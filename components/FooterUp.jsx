@@ -52,10 +52,10 @@ export const FooterUp = () => {
           </div>
           <div className="hidden md:block p-2">
             <ul className='sm:hidden md:block'>
-              <li className='my-3 text-black/50 hover:text-black font-medium line-clamp-1'>Golf shoes</li>
-              <li className='my-3 text-black/50 hover:text-black font-medium line-clamp-1'>Winter Trainers</li>
-              <li className='my-3 text-black/50 hover:text-black font-medium line-clamp-1'>Gore Tex Trainers</li>
-              <li className='my-3 text-black/50 hover:text-black font-medium line-clamp-1'>Walking trainers</li>
+              <li className='my-3 text-black/50 hover:text-black font-medium line-clamp-1'>Football Club Teams</li>
+              <li className='my-3 text-black/50 hover:text-black font-medium line-clamp-1'>Football</li>
+              <li className='my-3 text-black/50 hover:text-black font-medium line-clamp-1'>Nike Run Club</li>
+              <li className='my-3 text-black/50 hover:text-black font-medium line-clamp-1'>Nike Training Club</li>
             </ul>
           </div>
         </div>
